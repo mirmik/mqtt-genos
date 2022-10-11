@@ -1,16 +1,82 @@
-# PlatformIO
-.pio
-.pioenvs
-.piolibdeps
-lib
+# Prerequisites
+*.d
 
-# VS Code
-.vscode
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-# Eclipse IDE
-.project
-.cproject
-.settings
+# Precompiled Headers
+*.gch
+*.pch
 
-*.swp
-*.pyc
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+igris_test
+tests/runtests
+ltest/runtests
+test/runtests_installed
+travis.log
+
+ALL_BUILD.vcxproj
+ALL_BUILD.vcxproj.filters
+RUN_TESTS.vcxproj
+RUN_TESTS.vcxproj.filters
+ZERO_CHECK.vcxproj
+ZERO_CHECK.vcxproj.filters
+*.dir/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.dir/
+*.vcxproj
+*.vcxproj.filters
+x64
+Debug
+Release
+
+doxygen/html
+doxygen/latex
+
+bindings/arduino/src 
+xxx
+
+runtests
+build
+tests/build
+*.ninja
+.ninja_*
+
+jjj
+target
